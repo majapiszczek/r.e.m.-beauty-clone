@@ -1,0 +1,30 @@
+.navbar {
+  width: 100%;
+  position: static;
+  background-color: white;
+
+  &__free-shipping {
+    font-size: 13px;
+    color: $dark-font;
+    background-color: $light-gray;
+    text-align: center;
+    padding: 4px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    min-height: 50px;
+  }
+
+  &__icon {
+    width: 14px;
+    position: relative;
+  }
+
+  &__logo-img {
+    width: 200px;
+  }
+}
