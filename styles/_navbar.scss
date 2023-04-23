@@ -19,12 +19,23 @@
     min-height: 50px;
   }
 
+  &__menu {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
   &__icon {
     width: 14px;
-    position: relative;
+    margin: 10px;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: space-between;
   }
 
   &__logo-img {
-    width: 200px;
+    width: 180px;
   }
 }

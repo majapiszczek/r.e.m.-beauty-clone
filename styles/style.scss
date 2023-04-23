@@ -5,7 +5,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   font-family: $roboto;
+}
+
+.btn {
+  font-family: $space-mono;
+  font-size: 12px;
+  border: none;
+  background-color: white;
+  padding: 18px 38px;
 }
 
 @import "navbar";

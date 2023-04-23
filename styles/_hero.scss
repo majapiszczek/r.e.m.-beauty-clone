@@ -1,6 +1,29 @@
 .hero {
-  &__image-cover {
-    opacity: 0;
-    width: 100px;
+  &__caption {
+    position: absolute;
+    top: 200px;
+  }
+
+  &__caption h2,
+  h1 {
+    font-family: $space-mono;
+    font-weight: 400;
+    color: white;
+  }
+
+  &__caption h2 {
+    font-size: 13px;
+  }
+
+  &__caption h1 {
+    font-size: 16px;
+  }
+
+  &__caption p {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    width: 280px;
+    line-height: 16px;
   }
 }
