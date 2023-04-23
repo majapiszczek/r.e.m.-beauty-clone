@@ -1,14 +1,19 @@
 .hero {
+  &__image-cover {
+    position: relative;
+  }
+
   &__caption {
     position: absolute;
-    top: 200px;
+    top: 300px;
+    left: 20px;
   }
 
   &__caption h2,
   h1 {
     font-family: $space-mono;
     font-weight: 400;
-    color: white;
+    color: $white;
   }
 
   &__caption h2 {
@@ -20,10 +25,25 @@
   }
 
   &__caption p {
-    color: white;
+    color: $white;
     font-size: 12px;
     font-weight: 400;
     width: 280px;
-    line-height: 16px;
+    line-height: 20px;
+    margin: 20px 0;
+  }
+
+  &__images-slider {
+    display: flex;
+    justify-content: center;
+    font-family: $space-mono;
+    align-items: center;
+    margin: 20px;
+  }
+
+  &__images-slider-line {
+    border-top: 2px solid $light-gray;
+    width: 40px;
+    margin: 0 10px;
   }
 }
